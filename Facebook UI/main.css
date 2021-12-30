@@ -1,0 +1,78 @@
+.container{
+    background: #f1f1f7;
+    height: 1500px;
+    width: 100%;
+}
+.headder{
+    background: #f1f1f7;
+
+}
+.header-image{ 
+    display: block;
+    margin: 0 auto;
+    width: 22%
+}
+.inner-box{
+  width: 500px;
+  height:500px;
+  margin: 0 auto;
+  background-color:white ;
+}
+#form{
+    text-align: center;
+}
+
+.text1{
+    font-size: 25px;
+    text-align: center;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    margin-bottom: 0;
+    padding-top: 17px;
+    font-weight: 600;
+    color: #1c1e21;
+}
+.text2{
+    font-size: 15px;
+    text-align: center;
+    color: #606770;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    font-weight: normal;
+}
+.input{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    color: #8d949e;
+    font-size: 15px;
+    line-height: 16px;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-color: #ccd0d5;
+    border-radius: 5px;
+    border: 1px solid #ccd0d5;
+    
+}
+.para{
+    color: #777;
+    font-size: 11px;
+    text-align: center;
+}
+.button{
+    background: none;
+    background-color: #00a400;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    height: 36px;
+    overflow: hidden;
+    padding: 0 32px;
+    text-shadow: none;
+}
+.signin{
+    color: #1877f2;
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    padding-top: 21px;
+}
