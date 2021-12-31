@@ -1,7 +1,8 @@
 .container{
     background: #f1f1f7;
-    height: 1500px;
     width: 100%;
+    height: fit-content;
+    padding-top: 10px;
 }
 .headder{
     background: #f1f1f7;
@@ -10,13 +11,16 @@
 .header-image{ 
     display: block;
     margin: 0 auto;
-    width: 22%
+    max-width: 300px;
+    min-width: 250px;
 }
 .inner-box{
-  width: 500px;
+  width: 450px;
   height:500px;
   margin: 0 auto;
   background-color:white ;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
 }
 #form{
     text-align: center;
@@ -38,6 +42,7 @@
     font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
     font-weight: normal;
 }
+
 .input{
     font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
     color: #8d949e;
@@ -75,4 +80,14 @@
     font-size: 17px;
     line-height: 20px;
     padding-top: 21px;
+}
+div.footer{
+    height: 192px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 60px;
+}
+.footertext{
+    font-size: 12px;
+    color: #385898;
+    cursor: pointer;
 }
