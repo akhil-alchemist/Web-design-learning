@@ -15,7 +15,7 @@
 
     
 }
-.output{width: 349px;
+#output{width: 349px;
     height: 69px;
     background-color: rgb(255, 255, 255);
     border-radius: 8px;
@@ -23,6 +23,7 @@
     margin-left: 21px; 
     margin-top: -11px;
     pointer-events: none;
+    font-size: 25px;
 }
 .buttons{
     width:auto;

@@ -13,34 +13,34 @@
         <div class="main-body"> 
             <div class="banner">
                 <h3>CALCULATOR</h3> </div>
-         <div><input class="output" type="text"></div>
+         <div><input id="output" type="text"></div>
             <div class="buttons">
                 <div class="rows">
-                    <button class="bstyle">C</button>
-                    <button class="bstyle">0</button>
-                    <button class="bstyle">.</button>
-                    <button class="bstyle">-</button>
+                    <button onclick="del()" class="bstyle">C</button>
+                    <button onclick="clicked(0)" class="bstyle">0</button>
+                    <button onclick="clicked('.')" class="bstyle">.</button>
+                    <button onclick="clicked('-')" class="bstyle">-</button>
                     </div>
                 <div class="rows">
-                <button class="bstyle">7</button>
-                <button class="bstyle">8</button>
-                <button class="bstyle">9</button>
-                <button class="bstyle">*</button>
+                <button onclick="clicked(7)"class="bstyle">7</button>
+                <button onclick="clicked(8)" class="bstyle">8</button>
+                <button onclick="clicked(9)" class="bstyle">9</button>
+                <button onclick="clicked('*')" class="bstyle">*</button>
                 </div>
                 <div class="rows">
-                    <button class="bstyle">4</button>
-                    <button class="bstyle">5</button>
-                    <button class="bstyle">6</button>
-                    <button class="bstyle">/</button>
+                    <button onclick="clicked(4)" class="bstyle">4</button>
+                    <button onclick="clicked(5)" class="bstyle">5</button>
+                    <button onclick="clicked(6)" class="bstyle">6</button>
+                    <button onclick="clicked('/')" class="bstyle">/</button>
                     </div>
                     <div class="rows">
-                        <button class="bstyle">1</button>
-                        <button class="bstyle">2</button>
-                        <button class="bstyle">3</button>
-                        <button class="bstyle">+</button>
+                        <button  onclick="clicked(1)"class="bstyle">1</button>
+                        <button  onclick="clicked(2)" class="bstyle">2</button>
+                        <button  onclick="clicked(3)" class="bstyle">3</button>
+                        <button  onclick="clicked('+')" class="bstyle">+</button>
                         </div>
                         <div class="rows">
-                            <button class="bequal">=</button>
+                            <button onclick="sumof()" class="bequal">=</button>
                             </div>
                             
             </div>
