@@ -17,8 +17,7 @@ main objective of this projects is to learn very basics of HTML & consists
 
 ## Calculator UI Screenshot
 
-![Calculator UI Screenshot](https://github.com/akhil-alchemist/Web-design-learning/blob/main/Calculator-design%20output.png | width=100)
-
+[<img width="597" alt="Portfolio" src="https://github.com/akhil-alchemist/Web-design-learning/blob/main/Calculator-design%20output.png">]
 
 ## facebook Mock UI Screenshot
 
