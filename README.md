@@ -21,7 +21,7 @@ main objective of this projects is to learn very basics of HTML & consists
 
 ## facebook Mock UI Screenshot
 
-<img width="597" alt="Portfolio" src="https://github.com/akhil-alchemist/Web-design-learning/blob/main/Calculator-design%20output.png">
+<img width="700" alt="Portfolio" src="https://github.com/akhil-alchemist/Web-design-learning/blob/main/Facebook%20UI/images/FBScreenshot.png">
 
 
 ## 🛠 Skills
